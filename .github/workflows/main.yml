@@ -4,7 +4,7 @@ name: Veracode Upload And Scan
   uses: veracode/veracode-uploadandscan-action@0.2.1
   with:
     # appname
-    appname: # default is ${{ github.repository }}
+    appname: Verademo
     # createprofile
     createprofile: # default is true
     # filepath
@@ -12,9 +12,9 @@ name: Veracode Upload And Scan
     # version
     version: # default is Scan from Github job: ${{ github.run_id }}
     # vid
-    vid: 
+    vid: 2e3f1d0d5c480a6eeaa3684708a729d6
     # vkey
-    vkey: 
+    vkey: 49eca41a621cc6edd2eedcf1cad6afdd661bd6138e7b243e3872eb5677b2c529e430da84eeb1457a606181f6b1b5cfc42a3dfda724890dfdd7366fffad1b56d0
     # true or flase
     createsandbox: # optional
     # name of the sandbox
